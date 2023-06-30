@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="../style/images/favicon.png"/>
+        <link rel="stylesheet" href="../style/resume_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <script src="https://kit.fontawesome.com/db84924189.js" crossorigin="anonymous"></script>     
+        <title>Resume</title>
+    </head>
+    <body>
+        <ul class="snip1143">
+            <li><a href="../index.html" data-hover="Home">Home</a></li>
+            <li class="current"><a href="../model/resume.html" data-hover="Resume">Resume</a></li>
+            <li><a href="../model/professionnal_experience.html" data-hover="Professional Experience">Professional Experience</a></li>
+            <li><a href="../model/projects.html" data-hover="Projetcs">Projetcs</a></li>
+        </ul>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="../style/images/me.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <br>
+                        <h3>I'm Emré ALKAN and I'm <a href="" class="typewrite" data-period="2000" data-type='[ "a Cybersecurity Auditor", "an Apprentice", "a Student"]'></a><span class="wrap"></span></h3>
+                        <Br>
+                        <p>Hello, my name is <span>Emré Alkan</span>. I am an apprentice in computer science and engineering at the CESI School in Lyon. 
+                            I am very passionate about cybersecurity and penetration testing. I am curious and dedicated to my work. 
+                            Through the work I've done at school, in companies, and for personal projects, 
+                            I've been able to acquire a substantial amount of knowledge and skills needed to successfully complete a project</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('myself')">Myself</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="myself">
+                            <ul class="tab-row-1">
+                                <li><span>Birthday :</span> September 11th</li>
+                                <li><span>Location :</span> Morez, France</li>
+                                <li><span>Study :</span> CESI Engineering School</li>
+                            </ul>
+                            <ul class="tab-row-2">
+                                <li><span>Mail :</span> <i>emre.alkan@viacesi.fr</i></li>
+                                <li><span>Interests :</span> Cybersecurity, Sports, Videogames, Reading Mangas</li>
+                                <li><span>Phone :</span> +33 6 36 15 04 81</li>
+                            </ul>
+                            <button class="download-btn" onclick="window.open('../Resume_ALKAN_Emre.pdf')">Download My Resume&nbsp;&nbsp;<i class="fa fa-download"></i></button>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2017 - 2020</span><br>Lycée Victor Bérard (Morez - JURA) </li>
+                                <li><span>2020 - 2022</span><br>CESI Engineering School : Preparatory Cycle</li>
+                                <li><span>2022 - Now</span><br>CESI Engineering School : Apprenticeship Engineering Cycle </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="skills-list">
+                    <div class="card" id="card-1" data-name="p-1">
+                        <i class="fa-solid fa-network-wired fa-2xl"></i>
+                        <h2>Networking Administration</h2>
+                        <p>Network Administration is a critical skill in the field of Information Technology. It involves the configuration, 
+                            day-to-day management, and maintenance of an organization's network infrastructure. This infrastructure includes both hardware elements like servers, routers, 
+                            and switches, as well as software elements like network operating systems, firewall applications, and other security measures.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="card" id="card-2" data-name="p-2">
+                        <i class="fa-brands fa-linux fa-2xl"></i>
+                        <h2>Operating System</h2>
+                        <p>Operating systems knowledge is a skill that requires a deep understanding of how software manages a computer's hardware and software resources. This includes familiarity 
+                            with popular operating systems, resource management, process management, security and maintenance, as well as command-line usage. These skills allow for effective interaction 
+                            with the software, management and allocation of resources, and maintaining the security and efficiency of a computer system.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="card" id="card-1" data-name="p-3">
+                        <i class="fa-solid fa-code fa-2xl"></i>
+                        <h2>Web/Software Development</h2>
+                        <p>Software and web development is a multidimensional skill that involves the design, programming, testing, maintenance, and updating of software and web applications. 
+                            It requires mastery of several programming languages, an ability to understand user needs, problem-solving capabilities, detecting and fixing bugs, 
+                            and team collaboration. Fundamental principles such as agile development, object-oriented development, and adherence to accessibility standards are also essential.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="card" id="card-2" data-name="p-4">
+                        <i class="fa-solid fa-database fa-2xl"></i>
+                        <h2>Database Science</h2>
+                        <p>The skill in data science and databases encompasses the analysis and interpretation of data using statistical techniques and algorithms, database management, data cleaning, 
+                            as well as data visualization. This skill is crucial for effectively handling large amounts of data, transforming them into a suitable format, and extracting meaningful information 
+                            in a visually understandable manner.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="card" id="card-1" data-name="p-5">
+                        <i class="fa-solid fa-people-group fa-2xl"></i>
+                        <h2>Team Working</h2>
+                        <p>Teamwork skill involves effective communication, collaboration, problem-solving, flexibility, reliability, and conflict management. This ability is crucial to work harmoniously with others,
+                             adapt to changes, reliably perform tasks, and maintain a positive team dynamic, ultimately leading to the achievement of common goals.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="card" id="card-2" data-name="p-6">
+                        <i class="fa-solid fa-shield-halved fa-2xl"></i>
+                        <h2>Pentesting</h2>
+                        <p>Pentesting skill involves the ability to assess and exploit vulnerabilities in systems, networks, and applications using various tools. 
+                            It requires a deep understanding of networks and systems, the capacity to clearly communicate findings and make recommendations, 
+                            alongside adhering to strong ethical practices. This skill is essential for identifying potential security risks and mitigating them effectively.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="preview-skills">
+            <div class="preview" data-target="p-1">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <iframe style="width: 800px; height: 800px; border: none;" src="./iframe/iframe_1.html"></iframe>
+            </div>
+            <div class="preview" data-target="p-2">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <iframe style="width: 800px; height: 800px; border: none;" src="./iframe/iframe_2.html"></iframe>
+            </div>
+            <div class="preview" data-target="p-3">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <iframe style="width: 800px; height: 800px; border: none;" src="./iframe/iframe_3.html"></iframe>
+            </div>
+            <div class="preview" data-target="p-4">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <iframe style="width: 800px; height: 800px; border: none;" src="./iframe/iframe_4.html"></iframe>
+            </div>
+            <div class="preview" data-target="p-5">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <iframe style="width: 800px; height: 800px; border: none;" src="./iframe/iframe_5.html"></iframe>
+            </div>
+            <div class="preview" data-target="p-6">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <iframe style="width: 800px; height: 800px; border: none;" src="./iframe/iframe_6.html"></iframe>
+            </div>
+        </div>
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Contact Me</h3>
+                            <ul>
+                                <li><a href="#">emre.alkan@viacesi.fr</a></li> 
+                                <li><a href="#">+33 6 36 15 04 81</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                            <h3>About Me</h3>
+                            <p>Hello, my name is Emré Alkan. I am an apprentice in computer science and engineering at the CESI School in Lyon. 
+                                I am very passionate about cybersecurity and penetration testing. I am curious and dedicated to my work.</p>
+                        </div>
+                        <div class="col item social"><a href="https://www.linkedin.com/in/emr%C3%A9-alkan-b46357222/"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/Emrealkan39"><i class="icon ion-social-github"></i></a>
+                    </div>
+                    <p class="copyright">Emré ALKAN's Portfolio © 2023</p>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <script src="../script/ChangeResumeTabs.js"></script>
+        <script src="../script/ShowCardContent.js"></script> 
+        <script src="../script/typewriter.js"></script>
+    </body>
+</html>
